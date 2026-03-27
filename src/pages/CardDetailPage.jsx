@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const WA = 'https://wa.me/919818461302'
 
@@ -70,6 +70,17 @@ export default function CardDetailPage() {
 
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [sent, setSent] = useState(false)
+
+  useEffect(() => {
+    if (data) {
+      document.title = `${data.title} | JCM Second Prime – Life Coach for Women Over 45`
+      const meta = document.querySelector('meta[name="description"]')
+      if (meta) meta.setAttribute('content', data.subtitle + ' JCM Second Prime life coaching program for midlife women.')
+    }
+    return () => {
+      document.title = 'The JCM Second Prime – Life Coach for Women Over 45 | Fitness & Life Program'
+    }
+  }, [data])
 
   if (!data) {
     return (
