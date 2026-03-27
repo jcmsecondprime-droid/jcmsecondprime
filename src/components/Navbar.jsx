@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
           <img src={logoImg} alt="JCM Second Prime Logo" style={{ width: 42, height: 42, borderRadius: '50%', objectFit: 'cover' }} />
-          <span style={{ fontFamily: 'Playfair Display, serif', fontSize: 18, fontWeight: 700, color: scrolled ? '#0a1f44' : '#ffffff', letterSpacing: '0.02em' }}>
+          <span style={{ fontFamily: 'Playfair Display, serif', fontSize: 18, fontWeight: 700, color: '#0a1f44', letterSpacing: '0.02em' }}>
             JCM Second Prime
           </span>
         </a>
@@ -50,11 +50,11 @@ export default function Navbar() {
           {links.map(l => (
             <a key={l.href} href={l.href} style={{
               fontFamily: 'Poppins, sans-serif', fontSize: 13, fontWeight: 500,
-              color: scrolled ? '#5a5a5a' : '#ffffff', textDecoration: 'none', letterSpacing: '0.04em',
+              color: '#5a5a5a', textDecoration: 'none', letterSpacing: '0.04em',
               transition: 'color 0.2s',
             }}
               onMouseEnter={e => e.target.style.color = '#c9a96e'}
-              onMouseLeave={e => e.target.style.color = scrolled ? '#5a5a5a' : '#ffffff'}
+              onMouseLeave={e => e.target.style.color = '#5a5a5a'}
             >{l.label}</a>
           ))}
           {/* Social icons */}
