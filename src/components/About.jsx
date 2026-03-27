@@ -54,17 +54,17 @@ export default function About() {
             borderLeft:'3px solid #c9a96e',
           }}>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
-              Hello, I am Janet.
+              Hello, I'm Janet. I'm a certified Life Coach.
             </p>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
-              My journey of self-discovery began when I addressed my perimenopausal challenges. What started as a small step became a powerful transformation. In my late 40s, I achieved things I could not in my 20s and 30s.
+              My own journey of self-discovery began unexpectedly in 2023. I was 46 and battling perimenopausal issues. I started taking action to address my concerns. What began as a simple step turned into a powerful process of rediscovering confidence, joy, and personal freedom.
             </p>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
-              Through this journey, I realized:{' '}
+              In my late 40s, I achieved things I had always wanted but never could in my 20s and 30s. It is astonishing! Through this journey I realised something important:{' '}
               <strong style={{ color:'#c9a96e', fontWeight:600 }}>reinvention is possible at any stage of life.</strong>
             </p>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a' }}>
-              Today, I support people navigating midlife transitions and rediscovering identity and direction.
+              Today I support people who are navigating midlife transitions and searching for a renewed sense of identity and direction.
             </p>
           </div>
         </motion.div>
