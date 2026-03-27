@@ -30,6 +30,17 @@ export default function Hero() {
       {/* Content */}
       <div className="hero-content" style={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
+        {/* Reinvent Yourself After 45 */}
+        <motion.h2 initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.2, duration:0.7 }}
+          style={{
+            fontFamily: 'Playfair Display, serif',
+            fontSize: 'clamp(1.8rem,4vw,2.8rem)',
+            fontWeight: 700, color: '#1e1e1e',
+            marginBottom: 16, whiteSpace: 'nowrap',
+          }}>
+          Reinvent Yourself <em style={{ color:'#c9a96e', fontStyle:'italic' }}>After 45</em>
+        </motion.h2>
+
         {/* Subheading */}
         <motion.p initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.3, duration:0.7 }}
           style={{
@@ -85,6 +96,14 @@ export default function Hero() {
           background-size: 85% !important;
           background-position: center 30% !important;
         }
+        .hero-content {
+          background: rgba(255,255,255,0.85);
+          backdrop-filter: blur(8px);
+          border-radius: 24px;
+          padding: 32px 36px;
+          max-width: 600px;
+          width: 100%;
+        }
         @media (max-width: 768px) {
           .hero-bg {
             background-size: 100% !important;
@@ -95,28 +114,17 @@ export default function Hero() {
             justify-content: center !important;
           }
           .hero-content {
-            background: rgba(255,255,255,0.82);
-            backdrop-filter: blur(6px);
-            border-radius: 20px;
             padding: 24px 20px;
-            width: 100%;
+            border-radius: 20px;
           }
         }
         @media (max-width: 480px) {
-          .hero-bg {
-            background-size: 100% !important;
-            background-position: center top !important;
-          }
           #hero {
-            padding: 240px 12px 30px !important;
-            justify-content: center !important;
+            padding: 220px 12px 30px !important;
           }
           .hero-content {
-            background: rgba(255,255,255,0.82);
-            backdrop-filter: blur(6px);
-            border-radius: 16px;
             padding: 20px 16px;
-            width: 100%;
+            border-radius: 16px;
           }
         }
       `}</style>
