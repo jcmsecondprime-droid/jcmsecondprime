@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://secondprime.in/sitemap.xml
+Sitemap: https://www.secondprime.in/sitemap.xml
