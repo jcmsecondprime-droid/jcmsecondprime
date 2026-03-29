@@ -57,6 +57,9 @@ export default function About() {
               Hello, I'm Janet. I'm a certified Life Coach.
             </p>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
+              My journey has been shaped by two decades of corporate experience, single parenthood and years of self-reflection, and overcoming multiple self-limiting battles in life.
+            </p>
+            <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
               My own journey of self-discovery began unexpectedly in 2023. I was 46 and battling perimenopausal issues. I started taking action to address my concerns. What began as a simple step turned into a powerful process of rediscovering confidence, joy, and personal freedom.
             </p>
             <p style={{ fontFamily:'Poppins,sans-serif', fontSize:15, lineHeight:1.9, color:'#5a5a5a', marginBottom:16 }}>
